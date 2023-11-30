@@ -16,8 +16,7 @@ rainyDaysYear
 
 
 var dayCoffee = prompt("Сколько чашек кофе вы выпиваете за день?");
-var day = parseInt(dayCoffee, 10);
 
-var monthCoffee = day * 30;
+var monthCoffee = dayCoffee * 30;
 
 alert("Вы выпиваете " + monthCoffee + " чашек в месяц.")
